@@ -131,3 +131,45 @@ This evaluation demonstrates the economic relevance of the predictive model.
 
 ## 9. Project Structure
 
+ExplainableAI-NiftyOptions/
+│
+├── data/
+│ ├── nifty_intraday_2015_2025.csv
+│ └── global_news_sentiment.csv
+│
+├── src/
+│ ├── config.py
+│ ├── data_preprocess.py
+│ ├── feature_engineering.py
+│ ├── models.py
+│ ├── train_walk_forward.py
+│ ├── explainability.py
+│ └── backtest.py
+│
+├── main.py
+└── requirements.txt
+
+---
+
+## 10. Reproducibility
+The pipeline is modular and fully reproducible. All preprocessing steps, model configurations, and evaluation metrics are parameterized through a centralized configuration file.
+
+---
+
+## 11. Limitations and Future Work
+- Synthetic option prices are used due to lack of historical option-chain data.  
+- Future work may incorporate real-time option data feeds, transformer-based architectures, and reinforcement learning for dynamic trading strategies.
+
+---
+
+## 12. Conclusion
+This project demonstrates a comprehensive and interpretable deep learning framework for NIFTY 50 option price prediction. By combining market dynamics, financial news sentiment, and explainable AI techniques, the system provides both predictive accuracy and transparency, making it suitable for academic research and practical financial analysis.
+
+---
+
+
+
+
+
+## 9. Project Structure
+
